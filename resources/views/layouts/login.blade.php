@@ -21,7 +21,7 @@
 <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
     <div class="container">
         <a class="navbar-brand" href="{{route('login')}}">
-            <img src="{{ asset('assets/img/tf4w.png') }}">
+            <img src="{{ asset('assets/img/logo.png') }}">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
             <div class="header-body text-center mb-4">
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-6 col-md-8 px-5">
-                        <h1 class="text-white">Bienvenido!</h1>
+                        <h1 class="text-white">Bienvenido a {{env('APP_NAME')}} </h1>
                     </div>
                 </div>
             </div>
