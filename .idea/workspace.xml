@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b14eb91-25eb-4805-b6be-de7f01c12f24" name="Default Changelist" comment="" />
+    <list default="true" id="1b14eb91-25eb-4805-b6be-de7f01c12f24" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_03_214512_create_proveedores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_214512_create_proveedores_table.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,11 +139,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="2020_09_03_214512_create_proveedores_table.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/database/migrations/2020_09_03_214512_create_proveedores_table.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="2020_09_10_185910_create_conf_empresa_table.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/database/migrations/2020_09_10_185910_create_conf_empresa_table.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.2020_09_03_214512_create_proveedores_table.php" />
+        <item itemvalue="PHP Script.2020_09_10_185910_create_conf_empresa_table.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -157,6 +173,9 @@
       <workItem from="1599242354344" duration="4891000" />
       <workItem from="1599397682053" duration="3761000" />
       <workItem from="1599755617634" duration="278000" />
+      <workItem from="1599762571003" duration="11618000" />
+      <workItem from="1599775413730" duration="836000" />
+      <workItem from="1599776317024" duration="4719000" />
     </task>
     <servers />
   </component>
