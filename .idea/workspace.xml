@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b14eb91-25eb-4805-b6be-de7f01c12f24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ConfiguracionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductosController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProveedoresController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Configuracion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Productos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Proveedores.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/configuracion/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/configuracion/dataTable/btn.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/configuracion/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/productos/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/productos/dataTable/btn.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/productos/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/proveedores/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/proveedores/dataTable/btn.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/proveedores/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_03_214512_create_proveedores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_214512_create_proveedores_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_10_194238_create_producto_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_10_194238_create_producto_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/include/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/include/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,11 +138,23 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1h0afCTsGOFS5ba7lzUyXRwi5FE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lucar\Documents\GitHub\APPbarrotes\app\Models" />
+      <recent name="C:\Users\lucar\Documents\GitHub\APPbarrotes\resources\views" />
+      <recent name="C:\Users\lucar\Documents\GitHub\APPbarrotes\app\Http\Controllers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,24 +167,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="PHPUnit.phpunit.xml">
-    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2020_09_03_214512_create_proveedores_table.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/database/migrations/2020_09_03_214512_create_proveedores_table.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="2020_09_10_185910_create_conf_empresa_table.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/database/migrations/2020_09_10_185910_create_conf_empresa_table.php">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="PHP Script.2020_09_03_214512_create_proveedores_table.php" />
-        <item itemvalue="PHP Script.2020_09_10_185910_create_conf_empresa_table.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -175,7 +186,10 @@
       <workItem from="1599755617634" duration="278000" />
       <workItem from="1599762571003" duration="11618000" />
       <workItem from="1599775413730" duration="836000" />
-      <workItem from="1599776317024" duration="4719000" />
+      <workItem from="1599776317024" duration="11009000" />
+      <workItem from="1599789901614" duration="1680000" />
+      <workItem from="1599793488218" duration="2413000" />
+      <workItem from="1599795956863" duration="9103000" />
     </task>
     <servers />
   </component>
@@ -194,5 +208,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

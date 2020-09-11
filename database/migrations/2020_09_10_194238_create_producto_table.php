@@ -15,7 +15,7 @@ class CreateProductoTable extends Migration
     {
         Schema::create('producto', function (Blueprint $table) {
             $table->id();
-
+            $table->string('nombre');
             $table->double('valor_E', 8, 2);
             $table->double('valor_S', 8, 2);
             $table->bigInteger('proveedor_id')->unsigned();
